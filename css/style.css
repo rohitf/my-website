@@ -20,16 +20,21 @@ body {
   background: #eee;
 }
 
-a {
+#intro_links a {
   border: 1px solid;
 border-radius: 3px;
   padding: 7px 12px;
 transition: padding .1s;
 }
-a:hover {
+#intro_links a:hover {
   color: white !important;
   background: #039be5;
   padding: 10px 20px;
+}
+
+#projects a {
+  font-size: 1.5em;
+  text-decoration: underline;
 }
 
 #more a{
@@ -67,6 +72,10 @@ footer span {
 body {
     background-image: url("../bg.png");
     background-repeat: repeat;
+}
+
+h3{
+  font-size: 2.2em !important;
 }
 
 #topBar {
